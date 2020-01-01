@@ -2,6 +2,5 @@ theme: jekyll-theme-hacker
 title: Welcome br0
 description: what does this do?
 
-layout: page
-title: "test page"
+
 permalink: /
