@@ -4,9 +4,9 @@ You can use the [editor on GitHub](https://github.com/LewisSarcasm/LewisSarcasm.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<center>
+<p style="text-align: center;">
 ### Markdown
-</center>
+</p>
 
 {% include figure image_path=![image][machine_diagram] alt="stars" caption="Beautiful night sky." %}{: .tc}
 
