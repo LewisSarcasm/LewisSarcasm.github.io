@@ -5,4 +5,4 @@
 
 ### Posts:
 - **2020**
-  - [SHH Tunnelling Tutorial](/posts/2020/ssh_tunneling.html)
+  - [SSH Tunnelling Tutorial](/posts/2020/ssh_tunneling.html)
