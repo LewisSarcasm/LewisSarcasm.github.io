@@ -11,7 +11,7 @@ The set up I will demonstrate is made up of four Ubunbu servers running:
 - ubuntu 18.04.2 LTS (Bionic Beaver); and
 - OpenSSH.
 
-Navigate to _/etc/ssh/sshd_config_ and edit the following parameters:
+Navigate to `/etc/ssh/sshd_config` and edit the following parameters:
  
  ```bash
 GatewayPorts yes
@@ -24,7 +24,7 @@ Restart SSH using:
 systemctl restart sshd
 ```
 
-A problem we will run into is that as soon as we exit our SSH session, all processes created during this session will also be terminated. This can be circumvented by using a program called **screen**. This will allow us to create a screen session, create the SSH tunnel, and detach the process from our SSH session. 
+A problem we will run into is that as soon as we exit our SSH session, all processes created during this session will also be terminated. This can be circumvented by using a program called `screen`. This will allow us to create a screen session, create the SSH tunnel, and detach the process from our SSH session. 
 
 This can be done using the following commands:  
 
@@ -59,16 +59,16 @@ The diagram above gives you an idea of my setup.
 
 ### Local Port Forwarding
 
-If you're using the public authentication method, the SSH public key of _user1_ needs to be in the _'authorized_keys'_ file on machines: 
+If you're using the public authentication method, the SSH public key of _user1_ needs to be in the `authorized_keys` file on machines: 
 - _user2_'s machine;
 - _user3_'s machine; and
 - _user4_'s machine.
 
-The SSH public key of _user2_ needs to be in the _'authorized_keys'_ of machines:
+The SSH public key of _user2_ needs to be in the `authorized_keys` of machines:
 - _user3_; and
 - _user4_.
 
-The SSH public key of _user3_ needs to be in the _'authorized_keys'_ of machine:
+The SSH public key of _user3_ needs to be in the `authorized_keys` of machine:
 - _user4_.
 
 
@@ -97,14 +97,14 @@ ssh user4@localhost -p 13322 # where the username is the user of machine 4
 
 ### Remote Port Forwarding
 
-For remote port forwarding the SSH public key of _user1_ needs to be in the _'authorized_keys'_ file on machines: 
+For remote port forwarding the SSH public key of _user1_ needs to be in the `authorized_keys` file on machines: 
 - _user2_'s machine; and
 - _user4_'s machine.
 
-The SSH public key of _user3_ needs to be in the _'authorized_keys'_of machines:
+The SSH public key of _user3_ needs to be in the `authorized_keys` of machines:
 - _user2_.
 
-The SSH public key of _user4_ needs to be in the _'authorized_keys'_ of machine:
+The SSH public key of _user4_ needs to be in the `authorized_keys` of machine:
 - _user3_.
 
 
@@ -136,7 +136,7 @@ ssh user4@localhost -p 13322 # where the username is the user on machine 4
 ```
 
 ## Questions
-If you have any questions you can ask me on twitter [@lewisparsons123]([https://twitter.com/lewisparsons123]).
+If you have any questions you can ask me on twitter [@lewisparsons123](https://twitter.com/lewisparsons123).
 
 
 
