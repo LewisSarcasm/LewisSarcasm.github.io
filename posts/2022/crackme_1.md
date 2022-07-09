@@ -54,7 +54,7 @@ We know that the flag is the text that the user inputs. So we can use the inform
 
 We can use python to program a solution. The flag can be brute forced by trying all ascii values between 32 and 127. It is a fair assumption to believe that the flag will be a printable ascii value. We XOR this value with the generated key space value. Subtract the value found with the random bytes value and if the subtraction result is 0, we have found part of our flag. 
 
-The flag was found to be <b>flag{_y0u_f0und_key_}<\b>. 
+The flag was found to be **flag{_y0u_f0und_key_}**. 
 
 The following python code was used to obtain the flag: 
 
