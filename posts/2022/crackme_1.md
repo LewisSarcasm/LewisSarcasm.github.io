@@ -6,6 +6,8 @@ I would like to get better at reverse engineering and I figure solving crackmeâ€
 ### Crackme information
 *Challenge name*: Find a real key\
 *Author*: f0rizen\
+*Platform*: Unix/linux \
+*Arch*: x86-64 \
 *Binary download*: https://crackmes.one/crackme/629e1e5833c5d4251e72375f \
 *Tools used*: IDA free, python3
 
