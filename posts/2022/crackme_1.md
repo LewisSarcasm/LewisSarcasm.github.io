@@ -4,10 +4,10 @@
 I would like to get better at reverse engineering and I figure solving crackme’s would help me in achieving this goal. If there are any errors in my assumptions or explanations please do not hesitate to correct me!
 
 ### Crackme information
-Challenge name: Find a real key
-Author: f0rizen
-Binary download: https://crackmes.one/crackme/629e1e5833c5d4251e72375f
-Tools used: IDA free, python3
+**Challenge name**: Find a real key\
+**Author**: f0rizen\
+**Binary download**: https://crackmes.one/crackme/629e1e5833c5d4251e72375f\
+**Tools used**: IDA free, python3\
 
 
 The binary is written in C/C++. When the program is run it reveals that the user must run it with the flag as an argument. Entering an incorrect as an argument results in the text “Wrong flag” being returned to the user: 
