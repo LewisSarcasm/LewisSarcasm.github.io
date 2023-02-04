@@ -145,6 +145,8 @@ rm vm.pid
 rm vm.log
 ```
 
+**Note**: These [scripts](https://github.com/LewisSarcasm/Kernel_exploitation_notes/tree/main/linux/helpful_scripts) might be helpful. 
+
 ## References
 The following is a list resources that were useful:
 - [https://dangokyo.me/2018/10/11/linux-kernel-exploitation-setting-up-debugging-environment/](https://dangokyo.me/2018/10/11/linux-kernel-exploitation-setting-up-debugging-environment/)
