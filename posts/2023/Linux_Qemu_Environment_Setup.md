@@ -3,6 +3,7 @@
 
 We need to build our environment (kernel image). We want to build two different kernels: one with address sanitizer and one without (at least according to one of the links). Download a kernel from kernel.org (here I choose [linux-4.10.6](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.10.6.tar.xz)). We can get the kernel by browsing to the following:
 - [https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.69.tar.xz](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.69.tar.xz)
+
 We can change the parameters within this url to request v4.x and linux-4.10.6. 
 
 Another method of obtaining the linux kernel is through Github ([github](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git)). This [github post](https://github.com/google/syzkaller/blob/master/docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md)on how to setup syzkaller mentions how to use the Github method.   
