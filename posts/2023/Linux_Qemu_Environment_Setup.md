@@ -2,7 +2,7 @@
 <sub>Date: 04/02/2023</sub>
 
 We need to build our environment (kernel image). We want to build two different kernels: one with address sanitizer and one without (at least according to one of the links). Download a kernel from kernel.org (here I choose [linux-4.10.6](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.10.6.tar.xz)). We can get the kernel by browsing to the following:
-- https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.69.tar.xz
+- [https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.69.tar.xz](https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.69.tar.xz)
 We can change the parameters within this url to request v4.x and linux-4.10.6. 
 
 Another method of obtaining the linux kernel is through Github ([github](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git)). This [github post](https://github.com/google/syzkaller/blob/master/docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md)on how to setup syzkaller mentions how to use the Github method.   
@@ -146,20 +146,20 @@ rm vm.log
 
 ## References
 The following is a list resources that were useful:
-- https://dangokyo.me/2018/10/11/linux-kernel-exploitation-setting-up-debugging-environment/
-- https://dangokyo.me/2018/03/08/qemu-escape-part-2-debugging-environment-set-up/
-- https://vccolombo.github.io/cybersecurity/linux-kernel-qemu-stuck/
-- https://lists.ubuntu.com/archives/kernel-team/2016-May/077178.html 
-- https://www.kernel.org/
-- https://github.com/google/syzkaller/blob/master/docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md
-- https://unix.stackexchange.com/questions/46077/where-to-download-linux-kernel-source-code-of-a-specific-version
-- https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.10.6.tar.xz
-- https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
-- https://groups.google.com/g/syzkaller/c/CkcWOTqJvqk
-- https://raw.githubusercontent.com/google/syzkaller/master/tools/create-image.sh
-- https://superuser.com/questions/599253/i-am-trying-to-ssh-into-a-server-and-it-hangs-at-login
-- https://unix.stackexchange.com/questions/597789/virtio-vs-e1000-vs-rtl8139-whats-the-difference
-- https://superuser.com/questions/1706286/qemu-configuration-to-host-a-linux-with-ssh-and-http-on-windows
+- [https://dangokyo.me/2018/10/11/linux-kernel-exploitation-setting-up-debugging-environment/](https://dangokyo.me/2018/10/11/linux-kernel-exploitation-setting-up-debugging-environment/)
+- [https://dangokyo.me/2018/03/08/qemu-escape-part-2-debugging-environment-set-up/](https://dangokyo.me/2018/03/08/qemu-escape-part-2-debugging-environment-set-up/)
+- [https://vccolombo.github.io/cybersecurity/linux-kernel-qemu-stuck/](https://vccolombo.github.io/cybersecurity/linux-kernel-qemu-stuck/)
+- [https://lists.ubuntu.com/archives/kernel-team/2016-May/077178.html](https://lists.ubuntu.com/archives/kernel-team/2016-May/077178.html)
+- [https://www.kernel.org/](https://www.kernel.org/)
+- [https://github.com/google/syzkaller/blob/master/docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md](https://github.com/google/syzkaller/blob/master/docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md)
+- [https://unix.stackexchange.com/questions/46077/where-to-download-linux-kernel-source-code-of-a-specific-version](https://unix.stackexchange.com/questions/46077/where-to-download-linux-kernel-source-code-of-a-specific-version)
+- [https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.10.6.tar.xz](https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.10.6.tar.xz)
+- [https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git)
+- [https://groups.google.com/g/syzkaller/c/CkcWOTqJvqk](https://groups.google.com/g/syzkaller/c/CkcWOTqJvqk)
+- [https://raw.githubusercontent.com/google/syzkaller/master/tools/create-image.sh](https://raw.githubusercontent.com/google/syzkaller/master/tools/create-image.sh)
+- [https://superuser.com/questions/599253/i-am-trying-to-ssh-into-a-server-and-it-hangs-at-login](https://superuser.com/questions/599253/i-am-trying-to-ssh-into-a-server-and-it-hangs-at-login)
+- [https://unix.stackexchange.com/questions/597789/virtio-vs-e1000-vs-rtl8139-whats-the-difference](https://unix.stackexchange.com/questions/597789/virtio-vs-e1000-vs-rtl8139-whats-the-difference)
+- [https://superuser.com/questions/1706286/qemu-configuration-to-host-a-linux-with-ssh-and-http-on-windows](https://superuser.com/questions/1706286/qemu-configuration-to-host-a-linux-with-ssh-and-http-on-windows)
 
 ## Questions
 If you have any questions you can ask me on twitter [@lewisparsons123](https://twitter.com/lewisparsons123).
