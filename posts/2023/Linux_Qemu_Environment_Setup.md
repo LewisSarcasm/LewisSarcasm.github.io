@@ -6,7 +6,7 @@ We need to build our environment (kernel image). We want to build two different 
 
 We can change the parameters within this url to request v4.x and linux-4.10.6. 
 
-Another method of obtaining the linux kernel is through Github ([github](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git)). This [github post](https://github.com/google/syzkaller/blob/master/docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md)on how to setup syzkaller mentions how to use the Github method.   
+Another method of obtaining the linux kernel is through Github ([github](https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git)). This [github post](https://github.com/google/syzkaller/blob/master/docs/linux/setup_ubuntu-host_qemu-vm_x86-64-kernel.md) on how to setup syzkaller mentions how to use the Github method.   
 
 **NOTE**: In order to compile Linux 4.10.6, I needed to use Ubuntu 18.06 instead of 20.04.3. If you try to build the kernel in the wrong environment, you'll run into errors. 
 
